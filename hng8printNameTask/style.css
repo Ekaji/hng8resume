@@ -1,1 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    font-size: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: #EE666B;
+}
 
+.container > div > p {
+    font-size: 30px;
+}
+
+.Josefin_Sans{
+    color: #FFF9F4;
+    font-family: 'Josefin Sans';
+    text-shadow: #94505A 1px 1px,#94505A -0px 0px,#94505A -1px 1px,#94505A -2px 2px,#94505A -3px 3px,#94505A -4px 4px,#94505A -5px 5px,#94505A -6px 6px,#94505A -7px 7px,#94505A -8px 8px,#94505A -9px 9px,#94505A -10px 10px,#94505A -11px 11px,#94505A -12px 12px,#94505A -13px 13px,#94505A -14px 14px,#94505A -15px 15px,#94505A -16px 16px,#94505A -17px 17px,#94505A -18px 18px,#94505A -19px 19px,#94505A -20px 20px,#94505A -21px 21px,#94505A -22px 22px,#94505A -23px 23px,#94505A -24px 24px,#94505A -25px 25px,#94505A -26px 26px,#94505A -27px 27px,#94505A -28px 28px,#94505A -29px 29px;
+}
