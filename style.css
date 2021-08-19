@@ -1,0 +1,153 @@
+:root{
+    --border-dark: #090C08;
+    --background-dark: #000000;
+    --text: #ddd5de;
+    --redish: #FF1744;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 10s;
+  }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--background-dark);
+    color:  var(--text);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+
+.logo {
+    width: 80vw;
+    color: var(--text);
+    z-index: 1000;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 15px;
+}
+
+.main-content{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.greeting{
+    color:  var(--redish);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.myname > span{
+    margin: 10px 0px;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.myname > span, .name{
+    font-Size: 58px;
+    line-height: 57px;
+}
+
+.name{
+    color:  var(--redish);
+}
+
+.details > p {
+    word-spacing: 10px;
+}
+
+.details_container{
+    font-family: 'Assistant';
+    font-size: 30px;
+}
+
+.details, .skills_container{
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.skill_list{
+    word-spacing: 10px;
+}
+
+h2{
+    color:  var(--redish);
+    text-transform: uppercase;
+}
+
+.hng > img,
+.ingressive > img{
+    width : 150px;
+}
+
+.ingressive{
+    background-color: #ddd5de;
+    padding: 10px;
+}
+
+.footer_container{
+    height: 15vh;
+    padding : 30px;
+}
+
+.footer > span {
+    margin: 20px;
+}
+
+@media screen and (min-device-width: 770px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1){
+.landing {
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.logo{
+    width: 80vw;
+    margin-top: 20px;
+}
+
+.details_container{
+    width: 80vw;
+    margin: auto;
+
+}
+
+.details, .skills_container{
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.details{
+    width: 60vw;
+    margin: 0;
+}
+}
